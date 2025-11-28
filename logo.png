@@ -1,0 +1,10 @@
+from PIL import Image
+import os
+
+input_path = "/mnt/data/IMG_3168.jpeg"
+output_path = "/mnt/data/lrg_logo.png"
+
+img = Image.open(input_path)
+img.save(output_path, "PNG")
+
+output_path
