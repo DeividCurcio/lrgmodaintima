@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FF007F; /* Rosa LRG */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.logo {
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #FFE600; /* Amarelo LRG */
+    color: #FF007F;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #fff27a;
+}
+
+/* Responsivo */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .btn {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+}
